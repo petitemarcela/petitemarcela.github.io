@@ -189,20 +189,17 @@ h1, h2, h3, p{
     /*width: 100%;
     height: auto;
     display: block;*/
-    width: 20px;
-    height: auto;
+    display: none;
 }
 
 .cta{
-    display: flex;
-    margin: 0 100px;
-    align-items: center;
-    padding: 0 20px;
+    text-align: center;
+        margin: 0 50px;
 }
 
-.cadastre{
+/*.cadastre{
     margin: 10px;
-}
+}*/
 
 .cta-form{
     align-items: center;
@@ -287,14 +284,12 @@ h1, h2, h3, p{
 
 .itens{
     display: flex;
-    margin: 0 50px;
+    margin: 0 5px;
     align-items: center;
 }
-
 .caixinha{
-    width: 30%;
+    margin: 0 10px;
 }
-
 .apple, .google {
     display: block;
     max-width: 150px;
